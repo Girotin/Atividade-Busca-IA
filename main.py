@@ -21,7 +21,8 @@ def print_result(name: str, result):
 
 
 if __name__ == "__main__":
-    initial = State((2, 8, 3, 1, 6, 4, 7, 0, 5))   # ~20 movimentos até a solução
+    # Estado inicial gerado a 20 movimentos do goal (solúvel, paridade par)
+    initial = State((8, 7, 0, 5, 4, 2, 1, 6, 3))
 
     print("Estado inicial:")
     print(initial)
